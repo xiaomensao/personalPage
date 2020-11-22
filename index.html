@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Tony老师主页</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.js"></script>
+  </head>
+  <body class="bg-dark text-white d-flex flex-column h-100">
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <h3 class="text-white">Tony老师的主页</h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown text-white">
+                <a class="nav-link text-white" href="#"
+                  role="button" aria-haspopup="true" aria-expanded="false">
+                  个人简介
+                </a>
+              </li>
+              <li class="nav-item dropdown text-white">
+                <a class="nav-link text-white" href="#"
+                  role="button" aria-haspopup="true" aria-expanded="false">
+                  作品展示
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#"
+                  id="experienceDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  过往经历
+                </a>
+                <div class="dropdown-menu bg-secondary" aria-labelledby="experienceDropdown">
+                  <a class="dropdown-item text-white" href="#">实习</a>
+                  <a class="dropdown-item text-white" href="#">工作</a>
+                  <a class="dropdown-item text-white" href="#">志愿者</a>
+                  <a class="dropdown-item text-white" href="#">空余</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="row border-bottom mt-3">
+        <div class="col-12 col-md-6 text-center d-flex align-items-center justify-content-center">
+          <h1 class="fas fa-user-secret"></h1>
+        </div>
+        <div class="col-12 col-md-6">
+          <h4>Tony老师</h4>
+          <p>
+            集编程技术与文学素养为一身的软件工程师与武侠小说家，致力于全民编程，武侠复兴，以及编程与武侠相结合的伟大事业中。
+          </p>
+        </div>
+      </div>
+      <div class="row border-bottom mt-3">
+        <div class="col-12 col-md-6">
+          <h4>武侠不死</h4>
+          <p>
+            武侠是文人墨客对于江湖与暴力的浪漫诠释，是属于成年人的理想童话，是只有中华文化的土壤才能孕育出的阆苑仙葩，更是中华文化输出的绝佳选择。
+          </p>
+          <p>
+            武侠已死，并非武侠题材的死亡，不然漫威宇宙何以风靡全球？只是越来越少有人愿意好好写武侠。
+          </p>
+          <p>
+            如果你也对武侠有兴趣，不妨点开右边图标，读一读我的武侠处女作吧！
+          </p>
+        </div>
+        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+          <a class="text-white" href="https://book.qidian.com/info/1010376809" target="_blank">
+            <h1 class="fas fa-yin-yang"></h1>
+          </a>
+        </div>
+      </div>
+      <div class="row border-bottom mt-3">
+        <div class="col-12 col-md-6 text-center d-flex align-items-center justify-content-center">
+          <h1 class="fas fa-code"></h1>
+        </div>
+        <div class="col-12 col-md-6">
+          <h4>
+            日写代码三百行，不辞长作程序猿。
+          </h4>
+          <p>
+            编程其实很浪漫。
+          </p>
+          <p>
+            编程也可以很精彩。
+          </p>
+          <p>
+            编程其实就是用一种计算机能听得懂的语言，说一段它能听得懂的话。
+          </p>
+          <p>
+            编程就是用一行行代码，构建属于自己的小世界。
+          </p>
+          <p>
+            在这个被互联网重构的世界里，程序猿已经成为了不可缺少的中流砥柱，而如果你现在还对编程一无所知的话，那你可就真的out了。
+          </p>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-12 col-md-6">
+          <h4>
+            偶像——苏打绿
+          </h4>
+          <p>
+            只听过《小情歌》和《无与伦比的美丽》，你不算真的听过苏打绿。
+          </p>
+          <p>
+            即便有《小情歌》，有《无与伦比的美丽》，有《我好想你》，我仍然不觉得，苏打绿已经告别小众的标签，走进了华语乐坛的主流行列。
+          </p>
+          <p>
+            因为只有真正孤独的人，才能听懂苏打绿，苏打绿的音乐才能真正走入他的内心，他的灵魂。
+          </p>
+          <p>
+            真正孤独的人懂得如何接受孤独，如何与孤独和解。因为这是向世界妥协与坚持本我之间，最好的平衡点。
+          </p>
+          <p>
+            所以，他们学着《喜欢寂寞》，享受《独处的时候》，在《雨中的操场》一个人旋转，坚信着片刻即永恒，不断问着自己，《你在烦恼什么》。
+          </p>
+          <p>
+            然而，接受孤独的他们，不代表排斥情感。相反，他们只会对身边的人倍感珍惜。
+          </p>
+          <p>
+            所以才会有《当我们一起走过》，所以才会想《你被写在我的歌里》，所以才会夸一个人是《无与伦比的美丽》，说爱的人《是我的海》。
+          </p>
+        </div>
+        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+          <h1 class="fas fa-music"></h1>
+        </div>
+      </div>
+    </main>
+    <footer class="mt-auto bg-secondary">
+      <div class="container pt-2 pb-2">
+        <div class="d-flex">
+          <div class="flex-fill">
+            <h6 class="text-uppercase mb-4 font-weight-bold">联系方式</h6>
+          </div>
+          <div class="flex-fill">
+            <i class="fas fa-user mr-3"></i> Tony老师
+          </div>
+          <div class="flex-fill">
+            <i class="fas fa-envelope mr-3"></i> tony@liuxueseng.com
+          </div>
+          <div class="flex-fill">
+            <i class="fas fa-phone mr-3"></i> + 01 123 321 1234
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
